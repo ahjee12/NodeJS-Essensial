@@ -1,7 +1,7 @@
 // 비동기적으로 집 청소하기
 const meAsync = {
   laundry: () =>
-    new Promise((resolve, reject) => {
+    new Promise((resolve) => {
       // setInterval => 비동기적으로 수행하는 코드
       console.log('세탁기 돌리기 시작')
       let percentage = 25

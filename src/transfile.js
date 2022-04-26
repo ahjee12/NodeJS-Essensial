@@ -14,9 +14,9 @@ function sleep(duration) {
 // sleep(3000)
 // console.log('Promise all done!')
 sleep(1000)
-  .then((value) => sleep(1000))
-  .then((value) => sleep(1000))
-  .then((value) => sleep(1000))
+  .then(() => sleep(1000))
+  .then(() => sleep(1000))
+  .then(() => sleep(1000))
 
 // Promise.all([sleep(1000), sleep(2000), sleep(3000)]).then(() => {
 //   console.log('Promise all done!')

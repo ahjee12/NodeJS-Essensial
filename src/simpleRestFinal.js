@@ -28,7 +28,7 @@ const server = http.createServer((req, res) => {
     /** @type {Object.<string, *> | undefined} */
     const reqBody =
       (req.headers['content-type'] === 'application/json' &&
-        (await new Promise((resolve) => {
+        (await new Promise((resolve, reject) => {
           req.setEncoding('utf-8')
           req.on('data', (data) => {
             try {
