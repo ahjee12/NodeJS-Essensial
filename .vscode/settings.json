@@ -20,5 +20,6 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 2
   },
-  "liveServer.settings.port": 5501
+  "tailwindCSS.emmetCompletions": true,
+  "liveServer.settings.port": 5510
 }

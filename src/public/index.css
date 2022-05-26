@@ -1,0 +1,15 @@
+body {
+  background-color: gray;
+}
+
+.gold {
+  color: gold;
+}
+
+.green {
+  color: green;
+}
+
+.profileImage {
+  width: 300px;
+}
