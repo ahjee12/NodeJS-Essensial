@@ -44,6 +44,7 @@
     "body-parser": "^1.20.0",
     "commander": "^9.3.0",
     "core-js": "^3.22.1",
+    "dotenv": "^16.0.1",
     "esbuild": "^0.14.36",
     "express": "^4.18.1",
     "koa": "^2.13.4",
